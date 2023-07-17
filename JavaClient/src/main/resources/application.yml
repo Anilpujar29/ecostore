@@ -1,0 +1,45 @@
+---
+info:
+  application:
+    name: HttpClient
+    description: HttpClient to send values to ThingsBoard
+
+thingsboard:
+  url: http://thingsboard.cloud
+  devices:
+    - name: 'smart Sensor'
+      telemetry: 'temperature, humidity,tvoc,co2'
+      accessToken: a5Loa7gM07L9ZauX9bmK
+      range:
+        min: -20
+        max: 40
+    - name: energy meter
+      telemetry: 'amperage,energy,frequency,power,voltage'
+      accessToken: 8r2YrIcK0Z6QjkpsW3yz
+      range:
+        min: 0
+        max: 100
+    - name: water meter
+      telemetry: 'water,voltage'
+      accessToken: 3BnpWGb3Nkn6fkiZ3wzD
+      range:
+        min: 0
+        max: 10
+    - name: energy meter
+      telemetry: 'amperage,energy,frequency,power,voltage'
+      accessToken: n4ftj8nvcznpsy2l52ea
+      range:
+        min: 0
+        max: 100
+    - name: 'smart Sensor'
+      telemetry: 'temperature, humidity,tvoc,co2'
+      accessToken: dbaa0j14dl5m5omu7e96
+      range:
+        min: -20
+        max: 40
+    - name: people counter
+      telemetry: 'entered'
+      accessToken: mjqlj532qgxakxfdm4l9
+      range:
+        min: 0
+        max: 10
