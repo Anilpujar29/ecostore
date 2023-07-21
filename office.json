@@ -1,0 +1,11 @@
+{
+  "name": "office",
+  "description": "Default asset profile",
+  "image": null,
+  "defaultRuleChainId": null,
+  "defaultDashboardId": null,
+  "defaultQueueName": null,
+  "defaultEdgeRuleChainId": null,
+  "externalId": null,
+  "default": false
+}
