@@ -34,6 +34,7 @@
     "transportType" : "DEFAULT",
     "type" : "DEFAULT"
   },
+  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   }
