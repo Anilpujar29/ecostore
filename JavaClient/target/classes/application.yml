@@ -5,7 +5,7 @@ info:
     description: HttpClient to send values to ThingsBoard
 
 thingsboard:
-  url: http://thingsboard.cloud
+  url: http://localhost:9090
   devices:
     - name: 'smart Sensor'
       telemetry: 'temperature, humidity,tvoc,co2'
