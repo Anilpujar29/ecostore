@@ -1,5 +1,7 @@
 Docker - ThingsBoard PE installation Steps
 
+Add Docker-Compose.yml file in the project
+
 run the following commands from terminal window one after other:
 
 docker pull thingsboard/tb-pe:3.5.1PE
