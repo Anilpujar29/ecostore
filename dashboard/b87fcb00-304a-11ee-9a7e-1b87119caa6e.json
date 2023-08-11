@@ -3027,8 +3027,8 @@
             "main" : {
               "widgets" : {
                 "09c4841a-32e3-215f-7dc0-5f891dfb30a2" : {
-                  "sizeX" : 15,
-                  "sizeY" : 7,
+                  "sizeX" : 23,
+                  "sizeY" : 10,
                   "row" : 0,
                   "col" : 0
                 }
