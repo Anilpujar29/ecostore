@@ -10,7 +10,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "e5cf26c0-3cf0-11ee-a1d1-2dbe64dcc0a8"
+      "id" : "94d79400-2b9d-11ee-ad4a-cfdc96421c35"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -50,7 +50,7 @@
       "toIndex" : 2,
       "type" : "Success"
     } ],
-    "firstNodeIndex" : 8,
+    "firstNodeIndex" : 6,
     "nodes" : [ {
       "additionalInfo" : {
         "layoutX" : 824,
@@ -211,26 +211,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 290,
-        "layoutY" : 48
-      },
-      "configuration" : {
-        "version" : 0
-      },
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "e5cf26c0-3cf0-11ee-a1d1-2dbe64dcc0a8"
-      },
-      "name" : "Copy",
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.action.TbCopyAttributesToEntityViewNode"
     } ],
     "ruleChainConnections" : null
   },
