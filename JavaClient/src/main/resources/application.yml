@@ -5,41 +5,77 @@ info:
     description: HttpClient to send values to ThingsBoard
 
 thingsboard:
-  url: http://localhost:9090
+  url: http://localhost:8080
   devices:
     - name: 'smart Sensor'
       telemetry: 'temperature, humidity,tvoc,co2'
-      accessToken: a5Loa7gM07L9ZauX9bmK
+      accessToken: zwKXFJWOhA7y5ebm7hh8
       range:
         min: -20
         max: 40
     - name: energy meter
       telemetry: 'amperage,energy,frequency,power,voltage'
-      accessToken: 8r2YrIcK0Z6QjkpsW3yz
+      accessToken: rNMSVhXaAgvbSWJ1Khwc
       range:
         min: 0
         max: 100
     - name: water meter
       telemetry: 'water,voltage'
-      accessToken: 3BnpWGb3Nkn6fkiZ3wzD
+      accessToken: B7OlaABf1IJjCETfrcbm
       range:
         min: 0
         max: 10
-    - name: energy meter
-      telemetry: 'amperage,energy,frequency,power,voltage'
-      accessToken: n4ftj8nvcznpsy2l52ea
-      range:
-        min: 0
-        max: 100
-    - name: 'smart Sensor'
-      telemetry: 'temperature, humidity,tvoc,co2'
-      accessToken: dbaa0j14dl5m5omu7e96
+    - name: 'hvac'
+      telemetry: 'airFlow, enabled,targetTemperature'
+      accessToken: kaRl1U12MfSU8kOAbnh9
       range:
         min: -20
         max: 40
-    - name: people counter
-      telemetry: 'entered'
-      accessToken: mjqlj532qgxakxfdm4l9
+    - name: Room1 occupancy
+      telemetry: 'room1'
+      accessToken: 2aSJ6zP8Y0K79IXnCMsL
       range:
         min: 0
-        max: 10
+        max: 25
+    - name: Room2 occupancy
+      telemetry: 'room2'
+      accessToken: 9JzCfWqRJjsYty9HU9hD
+      range:
+        min: 0
+        max: 25
+    - name: Energy Meter Alpha Storage
+      telemetry: 'usageKWH'
+      accessToken: Kn11GqE6NZ17ueVrii5a
+      range:
+        min: 85
+        max: 88
+    - name: Energy Meter Alpha Retail Space
+      telemetry: 'usageKWH'
+      accessToken: 41z6pHBAzDKO1Sx29Eqv
+      range:
+        min: 84
+        max: 90
+    - name: Energy Meter Alpha Office
+      telemetry: 'usageKWH'
+      accessToken: yJKGdcdBFblRIzZXHMsH
+      range:
+        min: 86
+        max: 92
+    - name: Energy Meter Beta Retail Space
+      telemetry: 'usageKWH'
+      accessToken: CbqfgLn0ERh3XI6AyWRM
+      range:
+        min: 74
+        max: 79
+    - name: Energy Meter Beta Office
+      telemetry: 'usageKWH'
+      accessToken: upqntaUqGUAGllincE7W
+      range:
+        min: 76
+        max: 78
+    - name: Energy Meter Beta Storage
+      telemetry: 'usageKWH'
+      accessToken: TGKUC9rFbqy4uDvg8dRh
+      range:
+        min: 78
+        max: 84
