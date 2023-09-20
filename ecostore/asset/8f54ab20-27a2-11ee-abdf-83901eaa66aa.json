@@ -1,0 +1,40 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "54727830-27a1-11ee-abdf-83901eaa66aa"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "8f54ab20-27a2-11ee-abdf-83901eaa66aa"
+    },
+    "label" : null,
+    "name" : "Office",
+    "type" : "office"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "8f54ab20-27a2-11ee-abdf-83901eaa66aa"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "58deef80-27a0-11ee-abdf-83901eaa66aa"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

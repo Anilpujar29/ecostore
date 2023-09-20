@@ -1,0 +1,166 @@
+---
+info:
+  application:
+    name: HttpClient
+    description: HttpClient to send values to Ecostore
+#spring:
+#  h2:
+#    console:
+#      enabled: true
+#  datasource:
+#    url: jdbc:h2:mem:sbipdb
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password: pass
+
+thingsboard:
+  url: https://ecostore.cgi-iot.de
+  stores:
+    - name: Frankfurt
+      devices:
+        - name: 'People counter 1'
+          accessToken: vMvAClvFcZNugVMJEuLk
+          telemetries:
+            - name: people_count
+              range:
+                min: 0
+                max: 15
+        - name: 'People counter 2'
+          accessToken: 7Xc8YLhINFxsZOJmb82h
+          telemetries:
+            - name: people_count
+              range:
+                min: 0
+                max: 15
+        - name: 'Dressroom people counter'
+          accessToken: ngDE8thkDcEiRs4WDEeu
+          telemetries:
+            - name: people_count
+              range:
+                min: 0
+                max: 15
+        - name: 'smart Sensor'
+          accessToken: YsFN5yNJWbcSV86XiZqw
+          telemetries:
+            - name: temperature
+              range:
+                min: 5
+                max: 40
+            - name: humidity
+              range:
+                min: 20
+                max: 80
+            - name: tvoc
+              range:
+                min: 0.1
+                max: 0.6
+            - name: co2
+              range:
+                min: 400
+                max: 1500
+
+        - name: energy meter
+          accessToken: eXjwKvutQPUUDKxjulmG
+          telemetries:
+            - name: amperage
+              range:
+                min: 2.0
+                max: 5.0
+            - name: energy
+              range:
+                min: 500
+                max: 1000
+            - name: usageKWH
+              range:
+                min: 500
+                max: 1000
+            - name: frequency
+              range:
+                min: 50
+                max: 60
+            - name: power
+              range:
+                min: 100
+                max: 200
+            - name: voltage
+              range:
+                min: 200
+                max: 240
+
+        - name: water meter
+          accessToken: NAWpoZFKaGeM7tUY0q5k
+          telemetries:
+            - name: water
+              range:
+                min: 50
+                max: 100
+            - name: voltage
+              range:
+                min: 200
+                max: 240
+
+        - name: 'hvac'
+          accessToken: alIiHQI6MmkElUaDOh1u
+          telemetries:
+            - name: airFlow
+              range:
+                min: 300
+                max: 500
+            - name: enabled
+              range:
+                min: 0
+                max: 1
+            - name: targetTemperature
+              range:
+                min: 22
+                max: 22
+
+        - name: Energy Meter Alpha Storage
+          accessToken: Kn11GqE6NZ17ueVrii5a
+          telemetries:
+            - name: usageKWH
+              range:
+                min: 550
+                max: 750
+
+        - name: Energy Meter Alpha Retail Space
+          accessToken: 41z6pHBAzDKO1Sx29Eqv
+          telemetries:
+            - name: usageKWH
+              range:
+                min: 200
+                max: 300
+
+        - name: Energy Meter Alpha Office
+          accessToken: yJKGdcdBFblRIzZXHMsH
+          telemetries:
+            - name: usageKWH
+              range:
+                min: 600
+                max: 700
+
+        - name: Energy Meter Beta Retail Space
+          accessToken: CbqfgLn0ERh3XI6AyWRM
+          telemetries:
+            - name: usageKWH
+              range:
+                min: 300
+                max: 500
+
+        - name: Energy Meter Beta Office
+          accessToken: upqntaUqGUAGllincE7W
+          telemetries:
+            - name: usageKWH
+              range:
+                min: 800
+                max: 1000
+
+
+        - name: Energy Meter Beta Storage
+          accessToken: TGKUC9rFbqy4uDvg8dRh
+          telemetries:
+            - name: usageKWH
+              range:
+                min: 700
+                max: 1000
+
